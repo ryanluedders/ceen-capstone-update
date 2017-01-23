@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>lotService</servlet-name>
+		<servlet-class>com.luedders.server.serverMethods</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lotService</servlet-name>
+		<url-pattern>/thesisServ</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,13 @@
+<module>
+	
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name='org.gwtwidgets.WidgetLibrary'/>
+	<inherits name='com.google.gwt.widgetideas.datepicker.DatePicker'/>
+	<inherits name='net.sphene.gwt.widgets.Slider'/> 
+
+	<!-- Specify the app entry point class.                   -->
+	<entry-point class='com.luedders.client.thesisApp'/>
+		<servlet path="/thesisServ" class="com.luedders.server.serverMethods"/>
+	
+</module>

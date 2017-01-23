@@ -1,0 +1,1 @@
+javac -verbose -d "C:\Documents and Settings\Administrator\workspace\gwtThesis\bin" -sourcepath "C:\Documents and Settings\Administrator\gwtThesis\src\com\luedders\server\" *.java
