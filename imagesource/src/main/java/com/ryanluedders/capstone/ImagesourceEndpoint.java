@@ -10,6 +10,7 @@ import javax.annotation.PostConstruct;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -45,15 +46,13 @@ public class ImagesourceEndpoint {
         log.info("current images: " + currentImage.toString());
         
     }
-    
-    @RequestMapping("/test")
-    public String test() {
-        return "HELLO WORLD";
-    }
 	
 	@RequestMapping("/parkinglots/{lot}")
-	public String currentImage(String lot) {
-	    return lot;
+	public String currentImage(@PathVariable("lot") String lot) {
+	    if (currentImage.containsKey(lot)) {
+	        return currentImage.get(lot).getName();
+	    }
+	    return "NOT FOUND";
 	}
 	
 	
