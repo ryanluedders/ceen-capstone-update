@@ -1041,7 +1041,7 @@ public class ServerMethods extends RemoteServiceServlet implements LotService
 		try
 		{
 			ParkingLotImage lotImg = new ParkingLotImage(imageFile);
-			rval = imageProcessor.getAnalysis(lotImg.lotImage.getSubimage(topX, topY, (botX - topX), (botY - topY))); 
+			rval = ImageProcessor.getAnalysis(lotImg.lotImage.getSubimage(topX, topY, (botX - topX), (botY - topY))); 
 		}
 		catch(Exception e)
 		{
@@ -1179,7 +1179,7 @@ public class ServerMethods extends RemoteServiceServlet implements LotService
 				double per = 1;
 				
 				//call the image processing to decide if it is a car.
-				boolean isCar = imageProcessor.isCarByEdges(lotImg.lotImage.getSubimage(topX, topY, (botX - topX), (botY - topY)),statGetSpotThreshold(sName),per);
+				boolean isCar = ImageProcessor.isCarByEdges(lotImg.lotImage.getSubimage(topX, topY, (botX - topX), (botY - topY)),statGetSpotThreshold(sName),per);
 				
 				//if it is, the spot is unavailable, return 0
 				if(isCar)

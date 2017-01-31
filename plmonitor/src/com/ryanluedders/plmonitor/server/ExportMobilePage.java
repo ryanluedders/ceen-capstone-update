@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.NumberFormat;
-import java.util.Date;
-
-import javax.swing.text.NumberFormatter;
 
 /*=====================================================================
  * exportMobilePage
