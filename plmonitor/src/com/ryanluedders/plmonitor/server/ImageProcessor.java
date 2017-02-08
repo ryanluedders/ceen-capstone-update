@@ -8,6 +8,9 @@ import java.util.Arrays;
 
 import javax.swing.JFrame;
 
+import com.jhlabs.image.QuantizeFilter;
+import com.jhlabs.image.ThresholdFilter;
+
 public class ImageProcessor 
 {
 	//booleans to enable output of debug and system information

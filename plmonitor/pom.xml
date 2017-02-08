@@ -44,5 +44,27 @@
 			<artifactId>gwt-widgets</artifactId>
 			<version>0.1.5</version>
 		</dependency>
+
+		<!-- require mvn install, see README -->
+		<dependency>
+			<groupId>com.google.gwt.widgetideas</groupId>
+			<artifactId>gwt-incubator</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jscape.inet</groupId>
+			<artifactId>sinetfactory</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sphene</groupId>
+			<artifactId>gwt-widgets</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jhlabs</groupId>
+			<artifactId>filters</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 </project>

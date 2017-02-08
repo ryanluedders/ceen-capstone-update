@@ -1,21 +1,10 @@
 package com.ryanluedders.plmonitor.server;
 
-import java.awt.Button;
-import java.awt.Component;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.MediaTracker;
-import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
 import java.io.File;
-import java.io.FileInputStream;
 
 import javax.imageio.ImageIO;
 import javax.imageio.stream.FileImageInputStream;
-
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageDecoder;
 
 /*=====================================================================
  * parkingLotImage

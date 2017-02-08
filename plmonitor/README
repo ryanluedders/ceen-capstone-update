@@ -1,0 +1,5 @@
+# Maven import commands
+mvn install:install-file -DgroupId=com.google.gwt.widgetideas -DartifactId=gwt-incubator -Dversion=1.4.0 -Dpackaging=jar -Dfile=lib/gwt-incubator_1-4_final.jar
+mvn install:install-file -DgroupId=com.jscape.inet -DartifactId=sinetfactory -Dversion=1.0.0 -Dpackaging=jar -Dfile=lib/sinetfactory.jar
+mvn install:install-file -DgroupId=net.sphene -DartifactId=gwt-widgets -Dversion=1.0.0 -Dpackaging=jar -Dfile=lib/sph-gwt-widgets-current-bin.jar
+mvn install:install-file -DgroupId=com.jhlabs -DartifactId=filters -Dversion=1.0.0 -Dpackaging=jar -Dfile=lib/Filters.jar
